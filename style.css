@@ -26,12 +26,13 @@
     height: 400px;
     background-color: rgb(236, 223, 105);
 }
-#container {
+#container:after {
     content: "";
     display: table;
     clear: both;
+}
+#container {
     /* debug */
-    height: 400px;
     width: 100%;
     background-color: rgb(0, 204, 255);
 
@@ -39,14 +40,14 @@
 .contenuto-piccolo {
     width: 25%;
     /* debug */
-    height: 100%;
+    height: 300px;
     border: solid 1px;
     border-color: blue;
 }
 .contenuto-centrale {
     width: 50%;
     /* debug */
-    height: 100%;
+    height: 300px;
     border: solid 1px;
     border-color: blue;
 }
